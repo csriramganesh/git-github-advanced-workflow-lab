@@ -67,3 +67,37 @@ Git revert creates a new commit that reverses a previous commit.
 
 - Use reset before pushing.
 - Use revert after pushing to shared repositories.
+
+
+# Task 3 - Git Stash
+
+## What is Git Stash?
+
+Git stash temporarily saves uncommitted changes without creating a commit.
+
+## Workflow Performed
+
+1. Modified a file.
+2. Created a stash.
+3. Switched branches.
+4. Restored changes using stash pop.
+5. Demonstrated stash apply.
+
+## stash pop vs stash apply
+
+### git stash pop
+
+- Restores changes
+- Removes stash entry
+
+### git stash apply
+
+- Restores changes
+- Keeps stash entry
+
+## When To Use Git Stash
+
+- Urgent branch switching
+- Context switching
+- Temporary work preservation
+- Testing without commits
