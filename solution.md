@@ -129,3 +129,38 @@ Cherry-picking applies a specific commit from one branch onto another branch.
 - Duplicate commits
 - Merge conflicts
 - Difficult history tracking if overused
+
+# Task 5 - Rebasing
+
+## What is Rebasing?
+
+Rebasing moves commits from one branch and reapplies them on top of another branch.
+
+## Workflow Performed
+
+1. Created feature branch.
+2. Added commits on feature branch.
+3. Added new commits on main.
+4. Rebased feature branch onto main.
+5. Resolved conflicts.
+6. Continued rebase.
+
+## Merge vs Rebase
+
+### Merge
+
+- Preserves exact history
+- Creates merge commits
+
+### Rebase
+
+- Cleaner history
+- No unnecessary merge commits
+
+## Best Practices
+
+- Rebase local feature branches.
+- Avoid rebasing shared public branches.
+
+
+
