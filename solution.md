@@ -101,3 +101,31 @@ Git stash temporarily saves uncommitted changes without creating a commit.
 - Context switching
 - Temporary work preservation
 - Testing without commits
+
+
+# Task 4 - Cherry Picking
+
+## What is Cherry-Picking?
+
+Cherry-picking applies a specific commit from one branch onto another branch.
+
+## Workflow Performed
+
+1. Created a bug-fix branch.
+2. Added a fix.
+3. Committed the fix.
+4. Returned to main.
+5. Applied the commit using git cherry-pick.
+
+## Real-World Usage
+
+- Backporting fixes
+- Production hotfixes
+- Selective feature movement
+- Emergency bug fixes
+
+## Risks of Cherry-Picking
+
+- Duplicate commits
+- Merge conflicts
+- Difficult history tracking if overused
