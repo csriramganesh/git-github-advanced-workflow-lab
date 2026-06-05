@@ -25,3 +25,45 @@ A Pull Request (PR) is a mechanism used to review and merge code changes from on
 - Address requested changes.
 - Push updates to the same branch.
 - Re-request review if necessary.
+
+
+
+# Task 2 - Reset and Revert
+
+## Git Reset
+
+Git reset moves the branch pointer to a previous commit.
+
+### Soft Reset
+
+- Removes commit
+- Keeps changes staged
+
+### Mixed Reset
+
+- Removes commit
+- Unstages changes
+- Keeps files intact
+
+### Hard Reset
+
+- Removes commit
+- Removes changes
+- Dangerous operation
+
+## Git Revert
+
+Git revert creates a new commit that reverses a previous commit.
+
+## Reset vs Revert
+
+| Reset | Revert |
+|---------|---------|
+| Rewrites history | Preserves history |
+| Good for local work | Good for shared branches |
+| Can remove commits | Creates undo commit |
+
+## When To Use
+
+- Use reset before pushing.
+- Use revert after pushing to shared repositories.
